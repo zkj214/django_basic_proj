@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get("DJANGO_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://django-basic-proj.onrender.com"]
+ALLOWED_HOSTS = ["django-basic-proj.onrender.com"]
 
 
 # Application definition
