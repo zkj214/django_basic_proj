@@ -29,9 +29,9 @@ load_dotenv()
 SECRET_KEY = os.environ.get("DJANGO_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://django-basic-proj.onrender.com"]
 
 
 # Application definition
